@@ -1,0 +1,20 @@
+body {
+    background-color: powderblue;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    background-color: paleturquoise;
+}
+
+.flex-item {
+    width: 30%;
+    margin: 1em;
+    text-align: center;  
+ }
+.Cooper {
+    flex-wrap: flex;
+    align-content: center;
+}
+
