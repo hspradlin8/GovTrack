@@ -1,20 +1,36 @@
 body {
     background-color: powderblue;
+    font-family: monospace;
 }
 
 .flex-container {
     display: flex;
-    width: 100%;
-    background-color: paleturquoise;
+    width: 250px;
+    background-color: powderblue;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
 }
-
-.flex-item {
+.flex-item { 
     width: 30%;
     margin: 1em;
     text-align: center;  
  }
-.Cooper {
-    flex-wrap: flex;
-    align-content: center;
+.Cooper{
+    display: flex;
+    flex-wrap: wrap;
 }
-
+h1 {
+    text-align: center;  
+}
+#section-item {
+    margin: 0 auto;
+    width: 200px; 
+}
+p{
+    text-align: justify;
+}
+.content {
+display: flex;
+flex-wrap: wrap;
+}
